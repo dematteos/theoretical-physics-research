@@ -1,0 +1,31 @@
+# ============================================================
+# requirements.txt — theoretical-physics-research
+# ============================================================
+
+# Core scientific
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pandas>=2.0
+
+# Cosmology
+classy>=3.2
+astropy>=5.3
+healpy>=1.16
+
+# MCMC
+emcee>=3.1
+cobaya>=3.3
+getdist>=1.4
+corner>=2.2
+
+# HPC / I/O
+h5py>=3.9
+tqdm>=4.65
+
+# Notebooks
+jupyter>=1.0
+ipykernel>=6.0
+
+# Testing
+pytest>=7.4
